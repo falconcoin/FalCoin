@@ -1198,7 +1198,7 @@ static const char *strMainNetDNSSeed[][2] = {
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-    {"default", "173.44.41.235"}, //First official node
+    {"default", "162.255.117.4"}, //First official node
     {NULL, NULL},
 };
 
