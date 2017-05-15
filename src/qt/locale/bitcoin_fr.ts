@@ -1407,8 +1407,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>L&apos;adresse à laquelle le paiement sera envoyé (par ex. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>L&apos;adresse à laquelle le paiement sera envoyé (par ex. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a FalCoin address (e.g. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrez une adresse FalCoin (par ex. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FalCoin address (e.g. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Entrez une adresse FalCoin (par ex. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1471,8 +1471,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>L&apos;adresse avec laquelle le message sera signé (par ex. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>L&apos;adresse avec laquelle le message sera signé (par ex. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1544,8 +1544,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>L&apos;adresse avec laquelle le message a été signé (par ex. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>L&apos;adresse avec laquelle le message a été signé (par ex. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1565,8 +1565,8 @@ Adresse : %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a FalCoin address (e.g. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrez une adresse FalCoin (par ex. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FalCoin address (e.g. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Entrez une adresse FalCoin (par ex. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>

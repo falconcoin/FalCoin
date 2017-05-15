@@ -33,7 +33,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x00000b85c410f377e1f55ab1190db2048383fd8a86fad1379ce0df35682b7958");
+uint256 hashGenesisBlock("0x000008e94aee405d4d6028711d4fe23ab660b33c12a10488beb38d68e4510402");
 
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // FalCoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
@@ -1086,7 +1086,7 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nBits, int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 100000 * COIN;
+    int64 nSubsidy = 0 * COIN;
 
     if(nHeight == 1)
     {
@@ -3134,7 +3134,7 @@ bool InitBlockIndex() {
         block.nVersion = 1;
         block.nTime    = 1390095618;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 28940141;
+        block.nNonce   = 22623822;
 
         if (fTestNet)
         {

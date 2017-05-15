@@ -289,7 +289,7 @@ public:
         SignVerifyMessageDialog->setWindowTitle(QApplication::translate("SignVerifyMessageDialog", "Signatures - Sign / Verify a Message", 0));
         infoLabel_SM->setText(QApplication::translate("SignVerifyMessageDialog", "You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.", 0));
 #ifndef QT_NO_TOOLTIP
-        addressIn_SM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "The address to sign the message with (e.g. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)", 0));
+        addressIn_SM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "The address to sign the message with (e.g. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)", 0));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
         addressBookButton_SM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "Choose an address from the address book", 0));
@@ -321,7 +321,7 @@ public:
         tabWidget->setTabText(tabWidget->indexOf(tabSignMessage), QApplication::translate("SignVerifyMessageDialog", "&Sign Message", 0));
         infoLabel_VM->setText(QApplication::translate("SignVerifyMessageDialog", "Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.", 0));
 #ifndef QT_NO_TOOLTIP
-        addressIn_VM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "The address the message was signed with (e.g. OCNNAEfwYhBmGXcFP2Po1NpRUEiK8km2)", 0));
+        addressIn_VM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "The address the message was signed with (e.g. FALNAEfwYhBmGXcFP2Po1NpRUEiK8km2)", 0));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
         addressBookButton_VM->setToolTip(QApplication::translate("SignVerifyMessageDialog", "Choose an address from the address book", 0));

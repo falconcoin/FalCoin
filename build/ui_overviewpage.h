@@ -123,7 +123,7 @@ public:
         labelBalance->setObjectName(QStringLiteral("labelBalance"));
         labelBalance->setFont(font);
         labelBalance->setCursor(QCursor(Qt::IBeamCursor));
-        labelBalance->setText(QStringLiteral("0 OCN"));
+        labelBalance->setText(QStringLiteral("0 FAL"));
         labelBalance->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
         formLayout_2->setWidget(0, QFormLayout::FieldRole, labelBalance);
@@ -137,7 +137,7 @@ public:
         labelUnconfirmed->setObjectName(QStringLiteral("labelUnconfirmed"));
         labelUnconfirmed->setFont(font);
         labelUnconfirmed->setCursor(QCursor(Qt::IBeamCursor));
-        labelUnconfirmed->setText(QStringLiteral("0 OCN"));
+        labelUnconfirmed->setText(QStringLiteral("0 FAL"));
         labelUnconfirmed->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
         formLayout_2->setWidget(1, QFormLayout::FieldRole, labelUnconfirmed);
@@ -150,7 +150,7 @@ public:
         labelImmature = new QLabel(frame);
         labelImmature->setObjectName(QStringLiteral("labelImmature"));
         labelImmature->setFont(font);
-        labelImmature->setText(QStringLiteral("0 OCN"));
+        labelImmature->setText(QStringLiteral("0 FAL"));
         labelImmature->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
         formLayout_2->setWidget(2, QFormLayout::FieldRole, labelImmature);
