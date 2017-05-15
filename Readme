@@ -1,0 +1,10 @@
+algorithm: X11
+merkle hash: c933b3c44f468f9c19da6b64eb21b947afc0f49dec53ce8d653a4c9c5deaa4bf
+pszTimestamp: Fal
+pubkey: 040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
+time: 1390095618
+bits: 0x1e0ffff0
+nonce: 28940141
+genesis hash: 00000b85c410f377e1f55ab1190db2048383fd8a86fad1379ce0df35682b7958
+port : 25682
+rpcport : 25632
