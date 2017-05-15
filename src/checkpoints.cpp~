@@ -36,19 +36,15 @@ namespace Checkpoints
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
      (  0, uint256("0x00000b85c410f377e1f55ab1190db2048383fd8a86fad1379ce0df35682b7958"))
-     (  122, uint256("0x000000b5d6499f6d5f289f3c3df8af1871a2a1b029238a2ef1b63e1281708aa7"))//Checkpoint premine ;)
-     //(  2500, uint256("0x0000000024f35a7bdc16803a4e9ea57e500bd254a4848559c0bb7b924b56ca7b"))
-     //(  5000, uint256("0x000000000580eba70d6fe4f5a98aec1fa5e5d354cdb6d88e765e9d47220f8357"))
-     //(  7000, uint256("0x000000000523913f98d5edfd42539bac8047d9c6fc37a657c4068b55d9cd70bd"))
-     //(  16000, uint256("0x0000000000ec5bcb68e0d23f178f403b8ae4291f29aecf77c647d20a3979f4d6"))
-     //(  16250, uint256("0x00000000019d9ac5a2b3955be7c59b1d7ef5d875243e202eb13bbed89002109d"))
+     (  2, uint256("0x000005d8833a50f5d47b9ad05f92a59e1bf288d3d5750399cea7ed867c64ce6b"))
+     (  5, uint256("0x000000a2c140f0d4e5592202248b044af83ff5c8549da98da5d5ab92c8af4087"))
 
 
 	    ;
 
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1486069633 // * UNIX timestamp of last checkpoint block
+        1494814963 // * UNIX timestamp of last checkpoint block
     };
 
     static MapCheckpoints mapCheckpointsTestnet =
@@ -135,7 +131,7 @@ namespace Checkpoints
             const uint256& hash = i.second;
             std::map<uint256, CBlockIndex*>::const_iterator t = mapBlockIndex.find(hash);
             if (t != mapBlockIndex.end())
-               return t->second;
+               return NULL; //return t->second;
         }
         return NULL;
     }
